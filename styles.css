@@ -8,12 +8,6 @@ body {
     background-color: #2b2a2f;
 }
 
-.contents {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 header {
     background-color: yellowgreen;
     height: 6vh;
@@ -28,6 +22,7 @@ header {
     justify-content: space-between;
     width: 80%;
 }
+
 
 .name {
     margin: 10px;
@@ -58,10 +53,18 @@ header {
     margin-bottom: 20px;
 }
 
+.imagesection{
+    display: flex;
+    justify-content: left;
+    left: 20px;
+}
+
 .imagesection img {
     height: 200px;
     margin-right: 20px;
+
 }
+
 
 ol {
     border: 2px solid;
@@ -76,10 +79,6 @@ li {
     padding: 10px;
 }
 
-.cvbutton {
-    display: flex;
-    flex-direction: column;
-}
 
 .cvbutton > button {
     background-color: yellowgreen;
